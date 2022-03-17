@@ -1,0 +1,585 @@
+*{
+margin:0;
+padding:0;
+}
+
+html{
+min-width:1000px;
+
+}
+body{
+background-color:#675854;
+height:auto;
+font-family: Century Gothic;
+font-size:100%;
+line-height:1.1251;
+
+}
+a{color:#675854;
+outline:none;
+}
+a:hover{
+text-decoration:none;
+}
+ul, ol{
+list-style:none;
+}
+h1{
+
+text-align:center;
+margin-top:10px;
+}
+#omot{
+width:1000px;
+height:auto;
+margin: 2px auto;
+}
+#login{
+margin-top:100px;
+margin-left:35px;
+color:#fff;
+position:absolute;
+opacity:0.8;
+padding:5px;
+z-index:10;
+border:1px solid #675854;
+width:175px;
+background-color:#83726f;
+border-radius:5px;
+}
+#login form{
+margin-top:10px;
+
+}
+
+.dugme{
+text-align: center;
+padding:2px  5px 2px 5px;
+display: block;
+color: #ffffff;
+text-decoration: none;
+font-weight:bold;
+background:#83726f;
+margin-top: 16px;
+margin-left:45px;
+border-radius:5px;
+display: inline;
+border:2px solid #675854;
+}
+
+#login a{
+color:#ffffff;
+display:block;
+text-decoration:none;
+font-weight:bold;
+font-size:100%;
+height:20px;
+padding:0 20px 0 5px;
+background: url(galerija/links.png);
+background-position: right -20px;
+background-repeat: no-repeat;
+
+}
+#login  a.active {background-position: right 0;}
+
+#omot1{
+height:auto;
+width:1000px;
+margin:0px auto;
+position:relative;
+z-index:1;
+}
+.header{
+width:auto;
+height:335px;
+background-image:url(galerija/cup1.jpg);
+background-repeat:no-repeat;
+opacity:0.8;
+margin:0px auto;
+z-index:2;
+}
+/*drustvene mreze*/
+.mreza{
+width:150px;
+margin: 3px 430px;
+position:absolute;
+}
+.mreza img{
+padding-left:15px;
+float:left;
+
+
+}
+
+/*meni*/
+#menu{
+height:40px;
+width:1000px;
+margin-top:3px;
+position:relative;
+border-radius:5px;
+background:url(galerija/meni1.jpg);
+}
+
+#menu .nav li.li-hover{
+float:left;
+background:url(galerija/deljenje.jpg) left no-repeat;
+padding:0 25px 0 22px;
+font-size:16px;
+line-height:1.2em;
+margin-left:16px;
+margin-top:10px;
+
+} 
+#menu .nav li a{
+color:#ffffff ;
+font-weight:bold;
+text-decoration:none;
+float:left;
+padding:2px 0 2px 0;
+}
+#menu .nav li a:hover {color:#675854;}
+
+#sredina{
+width:auto;
+height:1050px;
+position:relative;
+background-image:url(galerija/pozadina2.jpg);
+
+margin:2px auto auto auto;
+border-radius:5px ;
+
+}
+#levo{
+margin-top:20px;
+width:220px;
+height:300px;
+float:left;
+position:absolute;
+z-index:7;}
+
+#levo1{
+width:220px;
+height:auto;
+float:left;
+position:absolute;
+margin:0px auto auto 20px;
+z-index:4;
+}
+#desno{
+width:660px;
+height:auto;
+text-align:left;
+border-radius:5px 5px 5px 5px;
+position:absolute;
+margin:50px auto auto 280px;
+z-index:4;
+text-align:justify;
+}
+
+#tuto-thumbox{
+width:660px;
+height:740px;
+text-align:left;
+}
+
+#desno_1{
+width:660px;
+height:740px;
+text-align:left;
+position:absolute;
+margin:90px auto auto 280px;
+z-index:4;
+text-align:justify;
+}
+
+.levo1 .rss{
+background-color:#83726f;
+opacity:0.8;
+float:left;
+margin-left:35px;
+border-radius:5px;
+border:1px solid #675854;
+position:relative;
+
+}
+
+
+.levo2{
+margin-top:265px;
+margin-left:35px;
+width:220px;
+height:723px;
+float:left;
+position:absolute;
+z-index:7;
+
+}
+#linkovi{
+background-color:#83726f;
+opacity:0.8;
+float:left;
+border-radius:5px;
+border:1px solid #675854;
+position:relative;
+padding:5px;
+width:175px;
+}
+.link1{
+padding:5px 5px  5px 0;
+}
+.link1 a{
+text-decoration:none;
+color:#FFFFFF;
+font-size:16px;
+
+
+}
+.link1 a:hover{
+font-weight:bold;
+font-style:italic;
+}
+
+
+
+#desno .content{
+height:600px;
+margin:50px 10px;
+position:absolute;
+float:left;
+}
+.content h1{
+color:#ffffff;
+
+}
+.content{
+margin-left:35px;
+padding:0 10px;
+font-weight:bold;
+}
+.content p{
+/*text-indent:30pt;*/
+}
+
+.title3{
+padding:0 35px;
+
+}
+.title3 a{
+color:#000000;
+font-style:italic;}
+
+
+/*footer*/
+
+footer.glavni{
+margin-top:2px;
+height:100px;
+text-align:center;
+border:1px solid #8d6b8c;
+display:block;
+background:url(galerija/dno.jpg) left repeat-x;
+border-radius: 5px;
+ }
+ 
+footer table{
+ margin-top:40px;
+margin-left:auto;
+margin-right:auto;
+ 
+ }
+ footer table a{
+ padding-left:5px;
+ padding-right:5px;
+ text-decoration:none;
+ font-size:12px;
+ color:#ffffff;
+ 
+ }
+ footer p a{
+ color: #ffffff;
+ text-decoration:none;
+ font-weight:bold;
+ }
+.vrh{
+color: #675854;
+text-align:center;
+margin-top:700px;
+
+}
+.vrh a{
+text-decoration:none;
+font-size:x-small;
+}
+
+#AnkHead{
+
+color:#ffffff;
+font-weight:bold;
+}
+
+.glasAnk {
+
+text-align: center;
+padding:2px  5px 2px 5px;
+color: #ffffff;
+text-decoration: none;
+background:#83726f;
+margin-top: 1px;
+margin-left:40px;
+border-radius:5px;
+display: inline;
+border:2px solid #675854;
+}
+#naslov{
+font-style:italic;
+}
+
+#midAnk{
+margin-left:35px;
+margin-top:414px;
+
+color:#fff;
+position:absolute;
+opacity:0.8;
+padding:5px;
+z-index:10;
+border:1px solid #675854;
+width:175px;
+height:245px;
+background-color:#83726f;
+border-radius:5px;
+}
+
+#search{
+width:170px;
+height:80px;
+position:absolute;
+margin-top:235px;
+margin-left:35px;
+background-color:#675854;
+border:1px solid #ffffff;
+border-radius:5px;
+opacity:0.8;
+padding:5px;
+
+}
+#search form input{background:#ffffff;width:150px;height:25px;border-radius:5px;float:right;margin:5px;}
+
+
+#search .txttab{
+padding:2px;
+display: block;
+color: #ffffff;
+text-decoration: none;
+background:#83726f;
+
+border-radius:5px;
+border:2px solid #83726f;
+}
+
+
+#box2{
+margin-left:35px;
+margin-top:707px;
+background-color:#83726f;
+border:1px solid #675854;
+border-radius:5px;
+opacity:0.8;
+padding:5px;
+}
+
+.rezank{
+color:#ffffff;
+font-weight:bold;
+
+}
+
+
+
+#desno h2{
+text-align: center;
+padding:20px;
+}
+#desno h3{
+padding:20px;
+}
+#desno img{
+border-radius:5px;
+height:40%;
+whdth:40%;
+padding-bottom:20px;
+}
+
+.title1{
+padding:20px 0;
+}
+
+.title2{
+padding:20px 0;
+
+}
+#formula{
+padding:20px 20px;
+
+}
+form{
+margin-top:20px;
+background-color:#83726f;
+opacity:0.7;
+}
+legend{text-align:center;
+padding-top:10px;}
+button{
+
+text-align: center;
+padding:2px  5px 2px 5px;
+color: #ffffff;
+text-decoration: none;
+background:#83726f;
+margin-top: 1px;
+margin-left:40px;
+border-radius:5px;
+display: inline;
+border:2px solid #675854;
+}
+
+/*galerija pozicioniranje slika na stranici*/
+.slika1,.slika2,.slika3,.slika4,.slika5,.slika6,.slika7,.slika8,.slika9,.slika10,.slika11, .slika12{
+margin:63px auto auto 30px;
+border:1px solid #999999;
+height:150px; 
+width:180px;
+float:left;
+background-color:#83726f;
+opacity:0.8;
+ text-align:center;}
+ 
+.slika1 img,.slika2 img,.slika3 img,.slika4 img,.slika5 img,.slika6 img,.slika7 img,
+.slika8 img,.slika9 img, .slika10  img,.slika11  img, .slika12  img{ 
+display:inline;
+width:150px; 
+height:113px;
+margin:15px;}
+/*kraj galerije*/
+
+/*galerija koja je preuzeta sa interneta*/
+#thumbox-dock *, #thumbox-overlay, #thumbox-image, #thumbox-border, #thumbox-loader, #thumbox-close, #thumbox-buttonNext,
+#thumbox-buttonPrev, #thumbox-label{margin:0;padding:0;border:0;}
+#thumbox-dock{position:absolute;z-index:9996;background:#675854;}
+#thumbox-dock .thumbox-scrollerpages{overflow:hidden;float:left;position: relative;}
+#thumbox-dock .thumbox-pages{position:relative;width:100%;left:0;}
+#thumbox-dock .thumbox-page{text-align:center;float:left;}
+#thumbox-dock .thumbox-page img{margin:10px;cursor:pointer;border:5px #83726f solid; border-radius: 5px;}
+#thumbox-dock .thumbox-arrowdock{width:20px;cursor:pointer;float:left;background:#83726f no-repeat center center;}
+#thumbox-dock .thumbox-leftarrow{background-image:url(images/thumbox-prev.png);}
+#thumbox-dock .thumbox-rightarrow{background-image:url(images/thumbox-next.png);}
+#thumbox-overlay{position:absolute;z-index:9995;top:0;left:0;opacity: 0.0;}
+.thumbox-hoverImage, .thumbox-currentImage{border-color:#ffffff !important;}
+#thumbox-image{position:absolute;z-index:9998;margin-top:90px;}
+#thumbox-border{position:absolute;z-index:9997;background:#675854;border-radius: 8px; margin-top:90px;}
+#thumbox-loader{position:absolute;z-index:9999;width:128px;height:15px;background:url(galerija/thumbox-loader.gif)}
+#thumbox-close{position:absolute;z-index:9999;width:30px;height:30px;background:url(galerija/thumbox-close.png);cursor:pointer;margin-top:90px;}
+#thumbox-buttonNext, #thumbox-buttonPrev{width:41px;height:66px;position:absolute;z-index:9999;cursor:pointer;}
+#thumbox-buttonNext{background:url(galerija/thumbox-nextImg.png);}
+#thumbox-buttonPrev{background:url(galerija/thumbox-prevImg.png);}
+/*kraj galerije*/
+
+#odgovor {width:300px;height:200px;margin-right:557px;margin-top:3px;color:#fff;position:absolute;border:1px solid rgba(153,255,255,0.7);padding-top:53px;padding-left:20px;padding-right:20px;
+ z-index:999; background-color:#83726f;opacity:40;!}
+
+ /*meni*/
+ .clearfix:after {
+    display:block;
+    clear:both;
+}
+ 
+/*----- Menu Outline -----*/
+.menu-wrap {
+    width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    background:#3e3436;
+}
+ 
+.menu {
+    width:1000px;
+    margin:0px auto;
+    
+}
+ 
+.menu li {
+    margin:0px;
+    list-style:none;
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+    color:#919191;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#be5b70;
+}
+ 
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+ 
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+ 
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    /*background:#2e2728;*/
+}
+ 
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu {
+    z-index:50;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:165%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:50;
+    opacity:0;
+    margin-top:9px;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+   /* background:#2e2728;*/
+    background: #8d6b8c;
+    border-radius: 0px 0px 5px 0px;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+    padding: 3px;
+    margin:3px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+    border-bottom: 1px solid #7D5F7D;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+  /*  background:#3e3436;*/
+}

@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<title>Cupcake&amp;Balloons</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <link rel="stylesheet" type="text/css" href="stil.css">
+        <link rel="stylesheet" type="text/css" href="sitemap.css">
+
+		
+<!--Logovanje-->
+	<script src="lib/jquery-1.4.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" >
+					$(document).ready(function(){
+					$('#login form').hide();
+					$('#login a').toggle(function() {
+					$(this).addClass('active').next('form').animate({'height':'show'}, {
+					duration:'slow',easing: 'easeOutBounce'});}, 
+					function() {
+					$(this).removeClass('active').next('form').slideUp();});
+					$('#login form :submit').click(function() {
+					$(this).parent().prev('a').click();});});
+	</script>
+	<script src="lib/jquery-ui-1.7.2.custom.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--kraj i pocetak slajda-->
+	<script src="scroll.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" >
+		marqueeInit({
+		uniqueid: 'slajd',
+		style: {'padding': '3px','width': '610px','height': '145px','background-color':'#83726f',
+		'margin':'28px 15px 0px 280px','position':'absolute', 'border':'10px solid #83726f'},
+		inc: 4, 
+		mouse: 'cursor driven', 
+		moveatleast: 1,
+		neutral: 150,
+		savedirection: true,
+		random: true});
+	</script>
+		<!--kraj i pocetak linkova-->
+	<script type="text/javascript" src="sliding_effect.js"></script>
+		<!--kraj i pocetak anketa-->
+	<script type="text/javascript" src="anketa1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$('#nev').hide();
+		$('.glasAnk').click(function(){
+		$('#nev').show('slow');});});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$('#par1').hide();
+		$('#procitaj').click(function(){
+		$('#par1').show('slow');});});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$('#sakri').click(function(){
+		$('#par1').hide('slow');});
+		});
+	</script>
+		<!--Pretraga-->
+		<script src="pretraga.js" type="text/javascript" charset="utf-8"></script>
+				<script type="text/javascript">
+					$(document).ready(function(){
+					$('#odgovor').hide();
+					$('.txttab').click(function(){
+					$('#odgovor').show('slow');
+					});
+						$('#odgovor').click(function(){
+					$(this).hide('slow');
+						})
+						});
+				</script>		
+
+	</head>
+<body>
+<div id="omot"id="omot">
+	<div id="omot1" name="omot1">
+		                        
+		                        
+		                      
+			                <div class="header">
+							<div id="search">
+										<form action="#" id="search1"> <input type="text" id="uneto" name="#"/></form>
+										
+										<input type="button"class="txttab" value="Search" onClick="Pretraga();"></input> 
+										
+										</div>
+									</div><div id="odgovor">
+						<p></p>
+							</div>
+							
+							
+			                 <div id="menu" class="menu">
+									<ul class="nav clearfix">
+										<li class="li-hover"><a href="index.html">Početna</a></li>
+										<li class="li-hover"><a href="proizvodi.html">Proizvodi</a>
+						                <ul class="sub-menu">
+						                     <li ><a href="devojcice.html">Kolekcija za devojčice</a></li>
+											 <li ><a href="decaci.html">Kolekcija za dečake</a></li>
+											 <li ><a href="kape.html">Kape i patofnice</a></li>
+						                </ul>
+										</li>
+										<li class="li-hover"><a href="uslovi.html">Uslovi i poručivanje</a></li>	
+										<li class="li-hover"><a href="kontakt.html">Kontakt</a></li>
+										<li class="li-hover"><a href="autor.html">O autoru</a></li>
+										<li class="li-hover"><a href="dokumentacija.pdf">Dokumentacija</a></li><img src="galerija/deljenje.jpg" style="padding-top:10px; height:23px">
+									</ul>
+									
+							</div>
+							
+							
+						<div id="sredina" name="sredina" >
+								<div id="login">
+									<a href="#">Log in</a>
+									<form action="">
+										<div>
+										<label for="username">Username:</label>
+											<input name="username" id="username" type="text"/>
+										</div>
+										<div>
+										<label for="password">Password:</label>
+											<input name="password" id="password" type="password"/>
+										</div>
+										<div>
+											<input class="dugme" type="submit" value="Prijavite se " />
+										</div>
+									</form>
+								</div>
+			                   
+			            <div id="levo">
+										
+				                         <div class="levo1"> <div class="rss"><a  href="rss.xml"><img src="galerija/galerija1/rss.png"></a></div></div>
+				                         <div class="levo2">
+				                             <ul id="linkovi">
+				                               <li class="link1"><a href="devojcice.html">Kolekcija za devojčice</a></li><hr />
+												<li class="link1"><a href="decaci.html">Kolekcija za dečake</a></li><hr />
+												<li class="link1" ><a href="kape.html">Kape i patofnice</a></li>
+												
+				                            </ul>
+				                        </div>
+				                        
+                                        <div id="midAnk"><div id="AnkHead">Anketa</div>
+										<table> 
+										
+													<div id="naslov">Da li radije kupujete unikatnu, ručno rađenu garderobu ili ne?</div>
+                                                  <tr><td><input id="pitanje1"value="216" name="qid-33" type="radio"></td><td>Kupujem ručno rađenu garderobu.</td></tr><br /><tr></tr><tr></tr>
+                                                  <tr><td><input id="pitanje2"value="217" name="qid-33" type="radio"></td><td>Ne kupujem ručno rađenu garderobu.</td></tr>
+                                                                                   
+										</table>
+                                          <div id="garAnk"><br />
+                                             <a class="glasAnk" rel="nofollow" href="#" onClick="anketa();">Glasaj</a> 
+			                            </div>
+                                        </div>
+		                                 <div id="box2">
+											<div class="rezank">Rezultati ankete</div>
+			                              
+										   <table >
+											
+											<th id="nev">Hvala sto ste glasali</th><br />
+											<tr><td>&nbsp Unikatnu:</td> <td><span id="p1"></span></td></tr>
+											<tr><td>&nbsp Mašinski rađenu: </td><td><span id="p2"></span></td></tr>	
+											
+											</table>	
+										   </div>
+										
+						</div>
+							
+			            <div id="desno">
+				            <div class="content" id="xsg">
+				            <div id="xsgHeader">
+							    <h1><a href="http://45.55.188.120/cupcake/sitemap.xml" title="Sitemap">Sitemap</a></h1>
+							</div>
+			                    <div id="xsgBody">
+									<ul><li><a href="http://45.55.188.120/cupcake/"><span class="title">Cupcake&amp;Balloons</span></a>
+									<ul><li><a href="http://45.55.188.120/cupcake/sitemap.xml"><span class="title">Sitemap</span></a>
+									</li><li><a href="http://45.55.188.120/cupcake/rss.xml"><span class="title">Rss</span></a>
+									</li><li><a href="http://45.55.188.120/cupcake/uslovi.html"><span class="title">Uslovi</span></a>
+									</li><li><a href="http://45.55.188.120/cupcake/devojcice.html"><span class="title">Devojcice</span></a>
+									</li><li><a href="http://45.55.188.120/cupcake/autor.html"><span class="title">Autor</span></a>
+									</li><li><a href="http://45.55.188.120/cupcake/dokumentacija.pdf"><span class="title">Dokumentacija</span></a>
+									</li><li><a href="http://45.55.188.120/cupcake/kape.html"><span class="title">Kape</span></a>
+									</li><li><a href="http://45.55.188.120/cupcake/kontakt.html"><span class="title">Kontakt informacije</span></a>
+									</li><li><a href="http://45.55.188.120/cupcake/proizvodi.html"><span class="title">Proizvodi</span></a>
+									</li><li><a href="http://45.55.188.120/cupcake/decaci.html"><span class="title">Decaci</span></a>
+									</li><li><a href="http://45.55.188.120/cupcake/index.html"><span class="title">Cupcake&amp;Balloons</span></a>
+									</li></ul></li></ul> 
+								</div>
+						 </div>
+
+<div class="vrh">
+<a href="#" style="color:black;">Vrh strane</a> 
+</div>  
+	                    </div>
+</div>
+<footer class="glavni">
+
+<div class="mreza1"><div class="mreza">
+<a target="_blank" href="https://www.facebook.com/CupcakeBalloons-884070051606477/?fref=ts"><img src="galerija/galerija1/facebook.png"></a>
+<a target="_blank" href="#"><img src="galerija/galerija1/google.png"></a>
+<a target="_blank" href="#"><img src="galerija/galerija1/twitter.png"></a></div></div> 
+
+<table>
+	<tr>
+		<td>
+			<a href="index.html">Početna</a> |
+		</td> 
+		<td>
+			<a href="proizvodi.html">Proizvodi</a> |
+		</td> 
+		<td>
+			<a href="uslovi.html">Uslovi i poručivanje</a> |
+		</td> 
+		<td>
+			<a  href="kontakt.html">Kontakt</a> |
+		</td> 
+		<td>
+			<a href="autor.html">O autoru</a> |
+		</td> 
+		<td>
+			<a  href="dokumentacija.pdf">Dokumentacija</a> 
+		</td> 
+		<!-- <td>
+			<a  href="">Seminarski</a>
+		</td>  -->
+	</tr>
+
+
+</table>
+
+<p><a href="autor.html" style="font-size:x-small;">princ</a></p>
+<p><a href="sitemap.html" >Sitemap</a></p>
+</footer>
+
+
+						
+				</div>	
+					
+	        </div>						
+							
+							
+</div>
+
+
+
+
+</body>
+</html>

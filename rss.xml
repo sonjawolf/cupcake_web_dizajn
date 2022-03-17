@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+    <chanel>
+        <title>Cupcake and Balloons</title>
+        <link></link>
+        <description>Novosti</description>
+        <item>
+            <title>Oslobađanje od stresa</title>
+            <link>http://45.55.188.120/cupcake/index.html</link>
+            <description>
+Činjenje rukama može biti aktivna meditacija, prilika za predah od razmišljanja i dopuštanje sebi samom da se slobodno povežete sa svojom kreativnom stranom. Kao i druge mislilačke ranje, pletenje otvara jedan prostor u umu i oslobađa Vas stresa!
+		</description>
+        </item>
+        <item>
+            <title>Ručni radovi</title>
+            <link>http://45.55.188.120/cupcake/index.html</link>
+            <description>
+	Nekada davno, ručni radovi su bili nešto što je svaka žena morala da poznaje. Zahvaljujući pletenju, kukučanju i izradi čipke, zime su bile toplije, domovi ušuskani... A onda je došlo vreme masovnijeg, jeftinijeg i bržeg, a pletivo je postalo staromodno i mnogima smešno.
+		</description>
+        </item>
+        <item>
+            <title>Pletenje</title>
+            <link>http://45.55.188.120/cupcake/index.html</link>
+            <description>
+	Pletenje je disciplina stroga, ali prepuna zadovoljstva i postepeno pronicanje u njegove najveće tajne, usvajanje i pravilno primenjivanje njegovih pravila, prijatan je doživljaj koji postiče na stvaranje i razmišljanje.
+		</description>
+        </item>
+    </chanel>
+</rss>
